@@ -32,13 +32,21 @@ Accessible with ```.lif``` files
 
 <br>
 <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/blinker.gif" alt="blinker" width="20%" /> 
+
     > Blinker
+
 <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/penta.gif" alt="penta" width="20%" /> 
+
     > Penta
+
 <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/tumbler.gif" alt="tumbler" width="20%" /> 
+
     > Tumbler
+
 <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/glgun13.gif" alt="glgun13" width="33%" /> 
+
     > Glider gun
+
 <br>
 
 ### Change colours
