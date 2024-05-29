@@ -22,11 +22,11 @@
 ### Model-View-Controller
 
 The code is divided among
-- ```LifeModel.java``` and ```LifeCell.java```
-- ```LifeView.java```
-- ```Life.java```
+- ```LifeModel.java``` and ```LifeCell.java``` (Model)
+- ```LifeView.java``` (View)
+- ```Life.java``` (Controller)
 
-### Pre-made patterns/communities
+### Pre-built patterns/communities
 
 Accessible with ```.lif``` files
 
@@ -35,7 +35,7 @@ Accessible with ```.lif``` files
   <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/blinker.gif" alt="blinker" width="20%" /> 
   <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/penta.gif" alt="penta" width="20%" /> 
   <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/tumbler.gif" alt="tumbler" width="20%" /> 
-  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/glgun13.gif" alt="glgun13" width="33%" /> 
+  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/glgun13.gif" alt="glgun13" width="20%" /> 
 </div>
 <br>
 
@@ -48,23 +48,35 @@ A random number generator asserts random colour to GUI
 <br>
 
 ## Installation
-<!-- Find more language syntax identifiers for code blocks here, https://github.com/jincheng9/markdown_supported_languages -->
-1. Install specific programming language compiler.
 
-    *Just a little note without non-crucial infomation*.
+1. Install a JDK
+    > I recommend [Red Hat's](https://developers.redhat.com/products/openjdk/download?source=sso)
+
 2. Clone repository
     ```sh
-    git clone https://github.com/tadahiroueta/repository.git
-    ```
-3. Install dependencies
-    ```sh
-    npm install
+    git clone https://github.com/tadahiroueta/game-of-life.git
     ```
 
 ## Usage
-1. First
-    ```sh
-    node index
-    ```
+- Random game
+    1. Run ```Life.java```
+
+- Pre-built games
   
-  ![image](https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg)
+    1. Add ```"data/<community>.lif"``` inside ```Life()``` in ```Life.java``` line 118
+
+        ```java
+        ...
+        public static void main(String[] args) throws IOException
+        {
+          Life conway = new Life("data/blinker.lif"); //parameterize to start w/ a particular file
+        ...
+        ```
+
+        > Pre-built games include
+        > - blinker
+        > - glgun13
+        > - penta
+        > - tumbler
+    
+    2. Run ```Life.java```
