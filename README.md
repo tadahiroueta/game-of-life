@@ -58,25 +58,27 @@ A random number generator asserts random colour to GUI
     ```
 
 ## Usage
-- Random game
-    1. Run ```Life.java```
 
-- Pre-built games
+### Random game
+
+1. Run ```Life.java```
+
+### Pre-built games
   
-    1. Add ```"data/<community>.lif"``` inside ```Life()``` in ```Life.java``` line 118
+1. Add ```"data/<community>.lif"``` inside ```Life()``` in ```Life.java``` line 118
 
-        ```java
-        ...
-        public static void main(String[] args) throws IOException
-        {
-          Life conway = new Life("data/blinker.lif"); //parameterize to start w/ a particular file
-        ...
-        ```
+    ```java
+    ...
+    public static void main(String[] args) throws IOException
+    {
+      Life conway = new Life("data/blinker.lif"); //parameterize to start w/ a particular file
+    ...
+    ```
 
-        > Pre-built games include
-        > - blinker
-        > - glgun13
-        > - penta
-        > - tumbler
-    
-    2. Run ```Life.java```
+    > Pre-built games include
+    > - blinker
+    > - glgun13
+    > - penta
+    > - tumbler
+
+2. Run ```Life.java```
