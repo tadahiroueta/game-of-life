@@ -19,7 +19,7 @@
 <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/game.gif" alt="game" width="50%" />
 <br>
 
-### Model-View-Controller
+### Model-View-Controller Design
 
 The code is divided among
 - ```LifeModel.java``` and ```LifeCell.java``` (Model)
