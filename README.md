@@ -16,7 +16,7 @@
 - Die otherwise
 
 <br>
-<img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/game.gif" alt="game" width="50%" />
+<img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/game.gif" alt="game" width="376rem" />
 <br>
 
 ### Model-View-Controller Design
@@ -32,10 +32,10 @@ Accessible with ```.lif``` files
 
 <br>
 <div>
-  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/blinker.gif" alt="blinker" width="20%" /> 
-  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/penta.gif" alt="penta" width="20%" /> 
-  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/tumbler.gif" alt="tumbler" width="20%" /> 
-  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/glgun13.gif" alt="glgun13" width="20%" /> 
+  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/blinker.gif" alt="blinker" width="150rem" /> 
+  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/penta.gif" alt="penta" width="150rem" /> 
+  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/tumbler.gif" alt="tumbler" width="150rem" /> 
+  <img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/glgun13.gif" alt="glgun13" width="150rem" /> 
 </div>
 <br>
 
@@ -44,7 +44,7 @@ Accessible with ```.lif``` files
 A random number generator asserts random colour to GUI
 
 <br>
-<img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/colours.gif" alt="colours" width="50%" />
+<img src="https://github.com/tadahiroueta/game-of-life/blob/master/samples/colours.gif" alt="colours" width="376rem" />
 <br>
 
 ## Installation
